@@ -3,10 +3,10 @@
 Just a quick wiki page project. Made with Django.
 
 Current Progress:
-- [ ] Entry Page
-- [ ] Index Page
+- [X] Entry Page
+- [X] Index Page
 - [ ] Search
 - [ ] New page
 - [ ] Edit Page
-- [ ] Random Page
-- [ ] Markdown to HTML Conversion
+- [X] Random Page
+- [X] Markdown to HTML Conversion
