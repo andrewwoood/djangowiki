@@ -5,13 +5,23 @@
 {% endblock %}
 
 {% block body %}
-    <h1>This is a search page!!</h1>
 
-    <p>
-        You can create this page by clicking "Create New Page" on the sidebar, or you can return home <a href="{% url 'index' %}">here</a>.
-    </p>
-
-
+    <h1>Results</h1>
     
+    {% if results is not None %}
+        <h5>
+            Here are the results found on the Wiki:
+        </h5>
+
+        <ul>
+            {% for result in results %}
+                <li><a href="{% url 'loadEntry' result %}">{{ result }}</a></li>
+            {% empty %}
+            </ul><p>
+                    Your result had no results found on our wiki! Click here to make the page.
+                <p>
+            {% endfor %}
+        </ul>
+    {% endif %}
 
 {% endblock %}

@@ -12,8 +12,9 @@
         <div class="row">
             <div class="sidebar col-lg-2 col-md-3">
                 <h2>Wiki</h2>
-                <form action = "results.html" method = "GET">
-                    <input class="search" type="text" name = "q" placeholder="Search Encyclopedia">
+                <form action = "./results" method = "GET">
+                    <input id = "search_box" class="search" type="text" name = "search_box" placeholder="Search Encyclopedia">
+                    <button id = "search_submit" class= "btn btn-outline-primary btn-sm" type = "submit"> Submit </button>
                 </form>
                 <div>
                     <a href="{% url 'index' %}">Home</a>
