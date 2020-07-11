@@ -5,7 +5,7 @@ Just a quick wiki page project. Made with Django.
 Current Progress:
 - [X] Entry Page
 - [X] Index Page
-- [ ] Search
+- [X] Search
 - [ ] New page
 - [ ] Edit Page
 - [X] Random Page
