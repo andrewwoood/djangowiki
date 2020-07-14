@@ -1,6 +1,6 @@
-# CS50W Project 1
+# Wikipedia
 
-Just a quick wiki page project. Made with Django.
+Just a quick wiki page project made with Django. This is CS50W's Project 1.
 
 Current Progress:
 - [X] Entry Page
