@@ -1,0 +1,26 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Encyclopedia
+{% endblock %}
+
+{% block body %}
+    <h1>Create New Page</h1>
+
+    <p>
+        Enter the title and content of your entry here:
+    </p>
+    {% if titleConflict %}
+        <p style="color:red">
+            Error: this title already exists. Please try something else.
+        </p>
+    {% endif %}
+
+    <form action = "{% url 'newEntry' %}" method = "post" >
+        {% csrf_token %}
+        {{ form }}
+        <br>
+        <input type = "submit">
+    </form>
+    <a href="{% url 'index' %}">Back to home page</a>
+{% endblock %}
