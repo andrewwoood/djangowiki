@@ -7,6 +7,6 @@ Current Progress:
 - [X] Index Page
 - [X] Search
 - [X] New page
-- [ ] Edit Page
+- [X] Edit Page
 - [X] Random Page
 - [X] Markdown to HTML Conversion
