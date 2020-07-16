@@ -10,3 +10,5 @@ Current Progress:
 - [X] Edit Page
 - [X] Random Page
 - [X] Markdown to HTML Conversion
+
+Woo c'est fini!
